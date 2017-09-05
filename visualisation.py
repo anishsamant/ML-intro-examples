@@ -2,7 +2,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from pandas.tools.plotting import scatter_matrix
 df=pd.read_csv('C:/Users/ANISH/Python_Demo/hepatitis1.csv',header=None,na_values=['?'])
-print(df)
 
 li=df.columns.tolist()
 nanlist=df.columns[df.isnull().any()].tolist()
