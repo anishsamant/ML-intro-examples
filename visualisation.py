@@ -51,6 +51,6 @@ df.hist()                                                              #histogra
 df.plot(kind='density',subplots=True,layout=(4,5), sharex=False)       #curve graph
 scatter_matrix(df)                                                     #scatter matrix
 plt.show()
-print(df.corr())                                        #shows co-relation between each pir of attributes
+print(df.corr())                                        #shows co-relation between each pair of attributes
 print(df.describe())
 df.to_csv('C:/Users/ANISH/Python_Demo/modified.csv')
